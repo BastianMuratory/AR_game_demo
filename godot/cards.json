@@ -1,0 +1,29 @@
+{
+  "_comment": "Source unique des cartes : lue par Godot (règles) et par tracker/make_markers.py (impression). Les IDs 0 à 3 sont réservés aux coins du plateau.",
+  "families": [
+	{
+	  "type": "fireball",
+	  "name": "Boule de feu",
+	  "first_id": 10,
+	  "count": 10,
+	  "color": "#ff6a1a",
+	  "text": "Part dans le sens de la flèche. 20 dégâts."
+	},
+	{
+	  "type": "base",
+	  "name": "Base",
+	  "first_id": 20,
+	  "count": 10,
+	  "color": "#33c8ff",
+	  "text": "Pose-la dans ta moitié : ta base apparaît dessus et la suit."
+	},
+	{
+	  "type": "tower",
+	  "name": "Tour",
+	  "first_id": 30,
+	  "count": 10,
+	  "color": "#a45cff",
+	  "text": "Tant qu'elle reste posée, tire sur l'adversaire."
+	}
+  ]
+}

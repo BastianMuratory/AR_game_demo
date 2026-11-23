@@ -1,0 +1,7 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://models/anneau.glb" id="1_modele"]
+
+[node name="AnneauDeCharge" type="Node3D"]
+
+[node name="Modele" parent="." instance=ExtResource("1_modele")]

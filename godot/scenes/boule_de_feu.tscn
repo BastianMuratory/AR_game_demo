@@ -1,0 +1,14 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/fireball.gd" id="1_script"]
+[ext_resource type="PackedScene" path="res://models/boule_de_feu.glb" id="2_modele"]
+
+[node name="BouleDeFeu" type="Node3D"]
+script = ExtResource("1_script")
+
+[node name="Modele" parent="." instance=ExtResource("2_modele")]
+
+[node name="Lumiere" type="OmniLight3D" parent="."]
+light_color = Color(1, 0.45, 0.1, 1)
+light_energy = 2.0
+omni_range = 4.0

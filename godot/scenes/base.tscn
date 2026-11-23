@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/fortress.gd" id="1_script"]
+[ext_resource type="PackedScene" path="res://models/base.glb" id="2_modele"]
+
+[node name="Base" type="Node3D"]
+script = ExtResource("1_script")
+
+[node name="Modele" parent="." instance=ExtResource("2_modele")]
+
+[node name="Texte" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.4, 0)
+pixel_size = 0.005
+billboard = 1
+no_depth_test = true
+text = "J1 · 100 PV"
+font_size = 48
+outline_size = 12
